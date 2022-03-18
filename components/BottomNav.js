@@ -13,6 +13,7 @@ import { Content } from "./content";
 import { Icon } from "@chakra-ui/react";
 import {MdSettings, MdHome} from 'react-icons/md'
 import {GiCommercialAirplane} from 'react-icons/gi'
+import React from "react";
 
 
 export default function BottomNav() {
@@ -22,7 +23,7 @@ export default function BottomNav() {
 
   return (
     <Box p={10} py={20} >
-      <Content children={index} />
+      <Content>{index}</Content>
 
       <BottomNavigation
         value={index}
