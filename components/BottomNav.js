@@ -9,7 +9,7 @@ import {
   BottomNavigationLabel,
   BottomNavigationStyleConfig
 } from "chakra-ui-bottom-navigation";
-import { Content } from "./content";
+import Content from "./content";
 import { Icon } from "@chakra-ui/react";
 import {MdSettings, MdHome} from 'react-icons/md'
 import {GiCommercialAirplane} from 'react-icons/gi'
