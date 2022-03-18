@@ -7,6 +7,7 @@ import Header from '../components/Header';
 import BottomNav from '../components/BottomNav';
 import '@fontsource/raleway/400.css'
 import '@fontsource/open-sans/700.css'
+import Content  from '../components/content';
 
 
 // 2. Extend the theme to include custom colors, fonts, etc
